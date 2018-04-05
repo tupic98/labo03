@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alvarenga.labo3.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/sndtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="20dp"/>
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textsample"
+        android:layout_below="@+id/sndtext"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/edittxt"
+        android:paddingTop="1dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textview"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxt"
+        android:layout_centerHorizontal="true"
+        android:text="Send"
+        />
+
+
+</RelativeLayout>
